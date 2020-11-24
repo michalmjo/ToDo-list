@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>ToDo List</h1>
+            <form action="">
+                <input type="text" class="toDoInput" placeholder="Enter your task...">
+                <button class="addBtn">Add Task</button>
+            </form>
+        </header>
+        <section class="todoTask">
+            <h2>To do list: </h2>
+            <p>There are no tasks in the list..</p>
+            <ul>
+            </ul>
+        </section>
+    </div>
+    <aside class="popUp">
+        <h3>Edit Task:</h3>
+        <div class="content">
+            <p class="info"></p>
+            <input type="text" class="editPopup" placeholder="Enter new task content">
+            <button class="btnpop popupAccept">Accept</button>
+            <button class="btnpop popupCancel">Cancel</button>
+        </div>
+    </aside>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
